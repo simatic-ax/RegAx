@@ -1,0 +1,45 @@
+# General information
+name: "@simatic-ax/regax"
+version: 0.0.0-placeholder
+author: Siemens AG
+# Description will be displayed in the apax extension
+description: The regax library provides a set of tools and utilities for working with regular expressions in ST (Structured Text) programming.
+type: lib
+#URL to the repository
+repository:
+  type: git
+  url: https://github.com/simatic-ax/regax
+# Targets which will be compiled with 'apax build'
+targets:
+  - "s7"
+  - "llvm"
+
+# Registry information, to other npm-registries where Apax packages are located
+registries:
+  '@simatic-ax': 'https://npm.pkg.github.com/'
+# Install settings
+installStrategy: strict
+apaxVersion: 3.4.2
+# Dependencies
+devDependencies:
+  '@ax/sdk': ^2510.15.0
+  "@simatic-ax/snippetscollection": 1.1.0
+
+# Project variables
+variables:
+  APAX_BUILD_ARGS:
+    - '--debug'
+
+# Files, which will be shipped with the library
+files:
+  - 'README.md'
+  - 'LICENSE.md'
+  - 'bin/s7'
+  - 'bin/llvm'
+  - 'docs'
+  - 'snippets'
+dependencies:
+  "@ax/system-strings": ^10.4.16
+  "@simatic-ax/conversion": ^2510.0.1
+catalogs:
+  "@ax/simatic-ax": ^2510.15.0
