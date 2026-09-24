@@ -8,8 +8,7 @@
     "version": "0.0.0-placeholder",
     "dependencies": {
       "@ax/system-strings": "^10.4.16",
-      "@simatic-ax/conversion": "^2510.0.1",
-      "@simatic-ax-internal/contributors-kit": "file:../../../Fokuswoche_2607_2/contributors-kit/simatic-ax-internal-contributors-kit-0.0.0-replace-in-pipeline.apax.tgz"
+      "@simatic-ax/conversion": "^2510.0.1"
     },
     "devDependencies": {
       "@ax/sdk": "^2510.15.0",
@@ -734,13 +733,6 @@
       "version": "1.1.0",
       "integrity": "sha512-aDktdAjTFVtWiOVSb5+7r1rdXsHZuyVnSO54CODKqxMZPl2CQjnemKZaBlPh+3CEdrk2O4/GWOR0msvr1vWn6g==",
       "resolved": "https://npm.pkg.github.com/download/@simatic-ax/snippetscollection/1.1.0/42d6ab2b257a9d7f7cb24161f178f5f429e98c57",
-      "dependencies": {}
-    },
-    "@simatic-ax-internal/contributors-kit": {
-      "name": "@simatic-ax-internal/contributors-kit",
-      "version": "0.0.0-replace-in-pipeline",
-      "resolved": "file:../../../Fokuswoche_2607_2/contributors-kit/simatic-ax-internal-contributors-kit-0.0.0-replace-in-pipeline.apax.tgz",
-      "integrity": "sha512-mim1mPY/gqEiX3Bd3RRSe5yzeNpfDYR+cXzQgAag2El7eugQOJlPmH5nA+8fRz5taFZT3I3J0e/6aygF3kWsFQ==",
       "dependencies": {}
     }
   },
